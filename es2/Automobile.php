@@ -18,6 +18,7 @@
         function setModello($modello) {
             $this->modello = $modello;
         }
+        
     }
 
 ?>

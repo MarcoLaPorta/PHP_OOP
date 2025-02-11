@@ -6,6 +6,24 @@
     <title>Document</title>
 </head>
 <body>
-    <p>ciao</p>
+    <?php
+
+        include "Alunno.php";
+
+        // Creazione di un array di oggetti Alunno
+        $alunni = [
+            new Alunno("Mario", "Rossi", 16),
+            new Alunno("Luca", "Bianchi", 17),
+            new Alunno("Anna", "Verdi", 15),
+            new Alunno("Giulia", "Neri", 18)
+        ];
+
+        // Stampa di ogni alunno
+        foreach ($alunni as $alunno) {
+            $alunno->stampaAlunno();
+        }
+
+    ?>
+
 </body>
 </html>

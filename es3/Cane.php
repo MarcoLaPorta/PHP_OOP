@@ -1,6 +1,6 @@
 <?php
 
-    require_once "Animale.php";
+    include "Animale.php";
 
     class Cane extends Animale {
 
